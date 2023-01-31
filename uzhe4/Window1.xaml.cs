@@ -21,5 +21,10 @@ namespace uzhe4
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            tb1.Text = "Lyuboi";
+        }
     }
 }
